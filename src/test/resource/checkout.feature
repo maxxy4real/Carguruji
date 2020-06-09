@@ -1,3 +1,4 @@
+@ignore
 Feature: Checkout Test
 
   Scenario: As a user I want to Login, search for item, make payment and complete my ordder

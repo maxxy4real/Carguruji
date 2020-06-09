@@ -1,4 +1,4 @@
-package steps;
+package step_definitions;
 
 import static org.junit.Assert.assertEquals;
 
@@ -116,6 +116,6 @@ public class signin extends testBase {
 	@And("^I enter my password \"([^\"]*)\" in the password field$")
 	public void iEnterMyPasswordInThePasswordField(String password) throws Throwable {
         loginPage loginpage = PageFactory.initElements(driver, loginPage.class);
-        loginpage.enterEmail(password);
+        loginpage.enterPassword(password);
 	}
 }

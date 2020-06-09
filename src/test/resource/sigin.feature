@@ -1,3 +1,4 @@
+@signin
 Feature: Sign in
 
   Scenario Outline: User able to login successfully
@@ -11,6 +12,6 @@ Feature: Sign in
 
     Examples:
     |  email                 |   password   |
-    | jraphael@gmail.com     | Friday24     |
-#    | maxtest227@gmail.com   | Today1       |
-#    | davin.riches@gmail.com | Today01      |
+#    | jraphael@gmail.com     | Friday24     |
+    | maxtest825@gmail.com   | Friday24     |
+    | maxtest433@gmail.com   | Friday24     |

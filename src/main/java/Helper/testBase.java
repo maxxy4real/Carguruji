@@ -24,6 +24,7 @@ public class testBase {
 
             //config property file
             CONFIG= new Properties();
+            //This path is for MAC users
             FileInputStream fn =new FileInputStream(System.getProperty("user.dir")+"/src/main/java/config/config.properties");
 
             CONFIG.load(fn);
