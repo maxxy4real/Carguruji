@@ -4,8 +4,8 @@ Feature: Checkout Test
   Scenario: As a user I want to Login, search for item, make payment and complete my ordder
     Given I am on the homepage
     And I click on the sign in link
-    When I enter my email "jraphael@gmail.com" in the email field
-    And I enter my password "Friday24" in the password field
+    When I enter my email "lyricalwhiz@mail.com	" in the email field
+    And I enter my password "Automation_Testing" in the password field
     And I click the login button
     And I search for dress
     And I select dress from the list
@@ -16,4 +16,5 @@ Feature: Checkout Test
     And I choose check as payment method
     And I click confirm order
     Then I verify order is complete and successful
+    Then I took a screenshot
     And I sign out

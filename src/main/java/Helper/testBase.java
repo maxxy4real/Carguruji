@@ -25,6 +25,7 @@ public class testBase {
             //config property file
             CONFIG= new Properties();
             //This path is for MAC users
+            // FileInputStream fn =new FileInputStream(System.getProperty("user.dir")+"/src/main/java/config/config.properties");
             FileInputStream fn =new FileInputStream(System.getProperty("user.dir")+"/src/main/java/config/config.properties");
 
             CONFIG.load(fn);
@@ -41,6 +42,8 @@ public class testBase {
 
             else if(CONFIG.getProperty("browser").equals("chrome")){
 //                System.setProperty("webdriver.chrome.driver", "/Users/maxwellnwajei/Documents/Selenium/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Browser\\chromedriver.exe");
+
                 driver = new ChromeDriver();
             }
 
